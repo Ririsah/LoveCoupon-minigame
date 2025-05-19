@@ -13,10 +13,12 @@ btn_calc.addEventListener('click', function (e) {
     if (love_parse <= 0) {
         display_sentence.textContent = `Jesus...`; 
     } else if (love_parse <= 10) {
-        display_sentence.textContent = `Meh! Taylor Swift and Kanye West have more chemistry.`
+        display_sentence.textContent = `Meh! Taylor Swift and Kanye West have more chemistry.`;
     } else if (love_parse <= 20) {
         display_sentence.textContent = `God NO! You can try but... idk girl...`; 
     } else if (love_parse <= 30) {
+        display_sentence.textContent = `A friendship, maybe... no?`; 
+    } else if (love_parse <= 40) {
         display_sentence.textContent = `Well, I mean... there's a possibility!`; 
     } else if (love_parse <= 50) {
         display_sentence.textContent = `Maybe push yourself a little more, but don't give up!`; 
