@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Bahianita", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: url('../assets/images/bg.jpg') center / cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 35%;
+    margin-top: 60px;
+    margin-left: 160px;
+}
+
+.logo-img {
+    height: 200px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.form label {
+    font-size: 2.5rem;
+    color: #195f4a;
+}
+
+.form input {
+    border: none;
+    background: url('../assets/images/bg_input.png') center / cover;
+    height: 80px;
+    width: 400px;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    outline: none;
+}
+
+.form button {
+    border: none;
+    background: url('../assets/images/btn.png') center / cover;
+    height: 80px;
+    width: 130px;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 20px;
+}
+
+.result_display {
+    font-size: 9rem;
+    color: #f46142;
+    margin-bottom: -20px;
+}
+
+.sentence_display {
+    font-size: 2rem;
+    color: #195f4a;
+}

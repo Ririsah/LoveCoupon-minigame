@@ -4,14 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Love Coupon</title>
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bahianita&display=swap" rel="stylesheet">
 </head>
 <body>
     
-    <input class="person_name" type="text">
-    <input class="lover_name" type="text">
-    <button class="calc">GO!</button>
-    <span class="result_display"></span>
-    <span class="sentence_display"></span>
+    <main class="content-container">
+        
+        <img class="logo-img" src="./src/assets/images/logo.png" alt="">
+        
+        <form class="form">
+            <label for="">YOU</label>
+            <input class="person_name" type="text">
+            <label for="">HIM / HER</label>
+            <input class="lover_name" type="text">
+            <button class="calc"></button>
+        </form>
+
+        <div class="result">
+            <span class="result_display"></span>
+            <span class="sentence_display"></span>
+        </div>
+        
+    </main>
 
     <script src="./src/index.js"></script>
 </body>
